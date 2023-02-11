@@ -10,14 +10,14 @@ import 'package:solar_system/widgets/scene_title_widget.dart';
 import 'package:three_dart/three_dart.dart' as three;
 import 'package:three_dart_jsm/three_dart_jsm.dart' as three_jsm;
 
-class HomeScene extends StatefulWidget {
-  const HomeScene({super.key});
+class SolarSystem extends StatefulWidget {
+  const SolarSystem({super.key});
 
   @override
-  State<HomeScene> createState() => _HomeSceneState();
+  State<SolarSystem> createState() => _SolarSystemState();
 }
 
-class _HomeSceneState extends State<HomeScene> {
+class _SolarSystemState extends State<SolarSystem> {
   /// Keys
   late final GlobalKey<three_jsm.DomLikeListenableState> _domLikeKey;
 
